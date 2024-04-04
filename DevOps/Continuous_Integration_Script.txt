@@ -1,0 +1,6 @@
+#Continuous Integration Script: Create a script to run tests and build artifacts as part of a continuous integration process. Example Code: 
+#!/bin/bash 
+# Run tests 
+pytest 
+# Build artifact 
+npm run build

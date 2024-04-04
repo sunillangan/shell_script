@@ -1,0 +1,3 @@
+#Automated Certificate Renewal Script: Develop a script to automatically renew SSL certificates before they expire. Example Code: 
+#!/bin/bash 
+certbot renew –quiet

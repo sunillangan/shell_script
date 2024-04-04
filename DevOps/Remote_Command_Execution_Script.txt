@@ -1,0 +1,5 @@
+#Remote Command Execution Script: Create a script to execute commands on remote servers using SSH. Example Code: 
+#!/bin/bash 
+server="user@remotehost" 
+command="uptime" 
+ssh "$server" "$command"

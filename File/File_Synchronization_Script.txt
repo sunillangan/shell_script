@@ -1,0 +1,5 @@
+#File Synchronization Script: Create a script to synchronize files or directories between local and remote locations. Example Code: 
+#!/bin/bash 
+local_dir="/path/to/local/dir" 
+remote_dir="user@remotehost:/path/to/remote/dir" 
+rsync -avz "$local_dir" "$remote_dir"
